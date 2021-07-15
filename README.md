@@ -20,11 +20,11 @@ Then;
 
 * To sign:
 
-  `./sign -m YOURMESSAGE -k PATH-TO-YOUR-SECRET-KEY.pem`
+  `./sign.py -m YOURMESSAGE -k PATH-TO-YOUR-SECRET-KEY.pem`
 
 * To verify:
 
-  `./verify -m YOURMESSAGE -k YOUR-PUBLIC-KEY-HEX -s SIGNATURE-IN-BASE-64-FORMAT`
+  `./verify.py -m YOURMESSAGE -k YOUR-PUBLIC-KEY-HEX -s SIGNATURE-IN-BASE-64-FORMAT`
 
 ## Credits
 * Uses the [ecc_ed25519.py](https://github.com/momipsl/pycspr/blob/main/pycspr/crypto/ecc_ed25519.py) module from [pycspr](https://github.com/momipsl/pycspr)
